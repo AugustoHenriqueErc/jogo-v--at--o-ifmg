@@ -10,4 +10,6 @@ comment2.text=\r\n\ Define\ the\ exits\ of\ this\ room.\ \ Every\ direction\ eit
 comment3.params=
 comment3.target=java.lang.String\ getDescription()
 comment3.text=\r\n\ @return\ The\ description\ of\ the\ room.\r\n
-numComments=4
+comment4.params=
+comment4.target=void\ printLocalInfo()
+numComments=5

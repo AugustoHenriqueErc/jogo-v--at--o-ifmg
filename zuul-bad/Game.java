@@ -209,4 +209,15 @@ public class Game
             return true;  // signal that we want to quit
         }
     }
+    
+    public void printLocationInfo()
+    {
+        System.out.println("You are " + currentRoom.getDescription());
+        System.out.print("Exits: ");
+    }
+    
+    public void look()
+    {
+        this.printLocationInfo();
+    }
 }
